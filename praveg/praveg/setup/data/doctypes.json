@@ -1,0 +1,86 @@
+[
+    {
+        "name": "CRM Hotel Property",
+        "module": "Praveg",
+        "autoname": "field:hotel_property_name",
+        "fields": [
+            {
+                "label": "Name",
+                "fieldname": "hotel_property_name",
+                "fieldtype": "Data",
+                "reqd": 1
+            },
+            {
+                "label": "Address",
+                "fieldname": "address",
+                "fieldtype": "Text",
+                "reqd": 0
+            },
+            {
+                "label": "Toll Free Number",
+                "fieldname": "toll_free_number",
+                "fieldtype": "Data",
+                "reqd": 0
+            },
+            {
+                "label": "Email",
+                "fieldname": "email",
+                "fieldtype": "Data",
+                "reqd": 0
+            }
+        ],
+        "permissions": [
+            {
+                "role": "System Manager",
+                "read": 1,
+                "write": 1,
+                "create": 1,
+                "delete": 1
+            }
+        ]
+    },
+    {
+        "name": "CRM Room Category",
+        "module": "Praveg",
+        "autoname": "field:room_category_name",
+        "fields": [
+            {
+                "label": "Name",
+                "fieldname": "room_category_name",
+                "fieldtype": "Data",
+                "reqd": 1
+            }
+        ],
+        "permissions": [
+            {
+                "role": "System Manager",
+                "read": 1,
+                "write": 1,
+                "create": 1,
+                "delete": 1
+            }
+        ]
+    },
+    {
+        "name": "CRM Meal Plan",
+        "module": "Praveg",
+        "autoname": "field:meal_plan_name",
+        "fields": [
+            {
+                "label": "Name",
+                "fieldname": "meal_plan_name",
+                "fieldtype": "Data",
+                "reqd": 1
+            }
+        ],
+        "permissions": [
+            {
+                "role": "System Manager",
+                "read": 1,
+                "write": 1,
+                "create": 1,
+                "delete": 1
+            }
+        ]
+    }
+]

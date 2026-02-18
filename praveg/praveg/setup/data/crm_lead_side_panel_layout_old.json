@@ -1,0 +1,65 @@
+{
+    "sections": [
+        {
+            "label": "Person",
+            "name": "person_section",
+            "opened": true,
+            "columns": [
+                {
+                    "name": "column_bmnL",
+                    "fields": [
+                        "custom_user_type",
+                        "organization",
+                        "salutation",
+                        "first_name",
+                        "last_name",
+                        "mobile_no",
+                        "email",
+                        "gender",
+                        "custom_city",
+                        "custom_state",
+                        "custom_country",
+                        "custom_pincode"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Hotel",
+            "name": "hotel_section",
+            "opened": true,
+            "columns": [
+                {
+                    "name": "column_b0mj",
+                    "fields": [
+                        "custom_hotel_property",
+                        "custom_check_in",
+                        "custom_check_out",
+                        "custom_no_of_nights"
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Additional Details",
+            "name": "additional_details_section",
+            "opened": true,
+            "columns": [
+                {
+                    "name": "column_vkom",
+                    "fields": [
+                        "custom_rates",
+                        "custom_remarks"
+                    ]
+                }
+            ]
+        }
+    ],
+    "remove_fields": [
+        "territory",
+        "website",
+        "annual_revenue",
+        "no_of_employees",
+        "industry"
+    ]
+}

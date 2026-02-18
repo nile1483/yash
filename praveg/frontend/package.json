@@ -1,0 +1,12 @@
+{
+  "name": "crm_customize_overrides",
+  "private": true,
+  "devDependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "scripts": {
+    "apply": "node override-crm-src.js",
+    "restore": "node restore-crm-src.js",
+    "status": "node override-crm-src.js --status"
+  }
+}
